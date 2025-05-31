@@ -52,6 +52,7 @@
             this.btnGuardar = new System.Windows.Forms.Button();
             this.txtTitulo = new System.Windows.Forms.TextBox();
             this.lblTitulo = new System.Windows.Forms.Label();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.gbxLista.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).BeginInit();
             this.pnlAcciones.SuspendLayout();
@@ -62,7 +63,7 @@
             // lblEncabezado
             // 
             this.lblEncabezado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEncabezado.Location = new System.Drawing.Point(2, -3);
+            this.lblEncabezado.Location = new System.Drawing.Point(2, 9);
             this.lblEncabezado.Name = "lblEncabezado";
             this.lblEncabezado.Size = new System.Drawing.Size(834, 31);
             this.lblEncabezado.TabIndex = 8;
@@ -72,7 +73,7 @@
             // lblParametro
             // 
             this.lblParametro.AutoSize = true;
-            this.lblParametro.Location = new System.Drawing.Point(12, 61);
+            this.lblParametro.Location = new System.Drawing.Point(5, 40);
             this.lblParametro.Name = "lblParametro";
             this.lblParametro.Size = new System.Drawing.Size(102, 16);
             this.lblParametro.TabIndex = 9;
@@ -80,17 +81,16 @@
             // 
             // txtParametro
             // 
-            this.txtParametro.Location = new System.Drawing.Point(12, 80);
+            this.txtParametro.Location = new System.Drawing.Point(8, 59);
             this.txtParametro.MaxLength = 100;
             this.txtParametro.Name = "txtParametro";
             this.txtParametro.Size = new System.Drawing.Size(680, 22);
             this.txtParametro.TabIndex = 10;
-            this.txtParametro.TextChanged += new System.EventHandler(this.txtParametro_TextChanged);
             // 
             // gbxLista
             // 
             this.gbxLista.Controls.Add(this.dgvLista);
-            this.gbxLista.Location = new System.Drawing.Point(8, 117);
+            this.gbxLista.Location = new System.Drawing.Point(8, 87);
             this.gbxLista.Name = "gbxLista";
             this.gbxLista.Size = new System.Drawing.Size(795, 179);
             this.gbxLista.TabIndex = 12;
@@ -117,7 +117,7 @@
             this.pnlAcciones.Controls.Add(this.btnEliminar);
             this.pnlAcciones.Controls.Add(this.btnEditar);
             this.pnlAcciones.Controls.Add(this.btnNuevo);
-            this.pnlAcciones.Location = new System.Drawing.Point(8, 302);
+            this.pnlAcciones.Location = new System.Drawing.Point(14, 272);
             this.pnlAcciones.Name = "pnlAcciones";
             this.pnlAcciones.Size = new System.Drawing.Size(795, 47);
             this.pnlAcciones.TabIndex = 13;
@@ -126,15 +126,14 @@
             // 
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
             this.btnCerrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCerrar.Location = new System.Drawing.Point(495, 3);
+            this.btnCerrar.Location = new System.Drawing.Point(529, 3);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.btnCerrar.Size = new System.Drawing.Size(96, 40);
+            this.btnCerrar.Size = new System.Drawing.Size(127, 40);
             this.btnCerrar.TabIndex = 9;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCerrar.UseVisualStyleBackColor = true;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // btnEliminar
             // 
@@ -143,12 +142,11 @@
             this.btnEliminar.Location = new System.Drawing.Point(387, 3);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.btnEliminar.Size = new System.Drawing.Size(102, 40);
+            this.btnEliminar.Size = new System.Drawing.Size(126, 40);
             this.btnEliminar.TabIndex = 8;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnEliminar.UseVisualStyleBackColor = true;
-            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnEditar
             // 
@@ -162,7 +160,6 @@
             this.btnEditar.Text = "Editar";
             this.btnEditar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnEditar.UseVisualStyleBackColor = true;
-            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnNuevo
             // 
@@ -176,7 +173,6 @@
             this.btnNuevo.Text = "Nuevo";
             this.btnNuevo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnNuevo.UseVisualStyleBackColor = true;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // gbxDatos
             // 
@@ -192,7 +188,7 @@
             this.gbxDatos.Controls.Add(this.btnGuardar);
             this.gbxDatos.Controls.Add(this.txtTitulo);
             this.gbxDatos.Controls.Add(this.lblTitulo);
-            this.gbxDatos.Location = new System.Drawing.Point(2, 355);
+            this.gbxDatos.Location = new System.Drawing.Point(14, 346);
             this.gbxDatos.Name = "gbxDatos";
             this.gbxDatos.Size = new System.Drawing.Size(795, 153);
             this.gbxDatos.TabIndex = 14;
@@ -282,7 +278,6 @@
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCancelar.UseVisualStyleBackColor = true;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnGuardar
             // 
@@ -296,7 +291,6 @@
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnGuardar.UseVisualStyleBackColor = true;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // txtTitulo
             // 
@@ -305,7 +299,6 @@
             this.txtTitulo.Name = "txtTitulo";
             this.txtTitulo.Size = new System.Drawing.Size(194, 22);
             this.txtTitulo.TabIndex = 1;
-            this.txtTitulo.TextChanged += new System.EventHandler(this.txtTitulo_TextChanged);
             // 
             // lblTitulo
             // 
@@ -316,12 +309,25 @@
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Titulo: ";
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
+            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBuscar.Location = new System.Drawing.Point(694, 50);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.btnBuscar.Size = new System.Drawing.Size(98, 40);
+            this.btnBuscar.TabIndex = 15;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            // 
             // FrmSerie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.ClientSize = new System.Drawing.Size(800, 513);
+            this.ClientSize = new System.Drawing.Size(848, 535);
+            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.gbxDatos);
             this.Controls.Add(this.pnlAcciones);
             this.Controls.Add(this.gbxLista);
@@ -366,5 +372,6 @@
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.TextBox txtTitulo;
         private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.Button btnBuscar;
     }
 }

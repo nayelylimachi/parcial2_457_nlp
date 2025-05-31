@@ -1,0 +1,12 @@
+C:\parcial2_sis457\parcial2_457_nlp\Parcial2Nlp\CadParcial2Nlp\bin\Debug\CadParcial2Nlp.dll.config
+C:\parcial2_sis457\parcial2_457_nlp\Parcial2Nlp\CadParcial2Nlp\bin\Debug\CadParcial2Nlp.dll
+C:\parcial2_sis457\parcial2_457_nlp\Parcial2Nlp\CadParcial2Nlp\bin\Debug\CadParcial2Nlp.pdb
+C:\parcial2_sis457\parcial2_457_nlp\Parcial2Nlp\CadParcial2Nlp\bin\Debug\EntityFramework.dll
+C:\parcial2_sis457\parcial2_457_nlp\Parcial2Nlp\CadParcial2Nlp\bin\Debug\EntityFramework.SqlServer.dll
+C:\parcial2_sis457\parcial2_457_nlp\Parcial2Nlp\CadParcial2Nlp\bin\Debug\EntityFramework.xml
+C:\parcial2_sis457\parcial2_457_nlp\Parcial2Nlp\CadParcial2Nlp\bin\Debug\EntityFramework.SqlServer.xml
+C:\parcial2_sis457\parcial2_457_nlp\Parcial2Nlp\CadParcial2Nlp\obj\Debug\CadParcial2Nlp.csproj.AssemblyReference.cache
+C:\parcial2_sis457\parcial2_457_nlp\Parcial2Nlp\CadParcial2Nlp\obj\Debug\CadParcial2Nlp.csproj.CoreCompileInputs.cache
+C:\parcial2_sis457\parcial2_457_nlp\Parcial2Nlp\CadParcial2Nlp\obj\Debug\CadParci.917A722C.Up2Date
+C:\parcial2_sis457\parcial2_457_nlp\Parcial2Nlp\CadParcial2Nlp\obj\Debug\CadParcial2Nlp.dll
+C:\parcial2_sis457\parcial2_457_nlp\Parcial2Nlp\CadParcial2Nlp\obj\Debug\CadParcial2Nlp.pdb
